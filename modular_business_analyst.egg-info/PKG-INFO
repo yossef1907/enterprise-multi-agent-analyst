@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: modular-business-analyst
+Version: 1.0.0
+Summary: LangGraph multi-agent business analyst
+Requires-Python: >=3.12
+Requires-Dist: pandas>=2.0
+Requires-Dist: numpy>=1.24
+Requires-Dist: openpyxl>=3.1
+Requires-Dist: matplotlib>=3.7
+Requires-Dist: scikit-learn>=1.2
+Requires-Dist: pypdf>=4.0
+Requires-Dist: reportlab>=4.0
+Requires-Dist: requests>=2.31
+Requires-Dist: pydantic>=2.0
+Requires-Dist: langgraph>=0.2
+Requires-Dist: langchain-core>=0.3
+Requires-Dist: langchain-groq>=0.2
+Requires-Dist: fastapi>=0.110
+Requires-Dist: uvicorn>=0.29

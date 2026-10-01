@@ -1,0 +1,5 @@
+pyproject.toml
+modular_app.egg-info/PKG-INFO
+modular_app.egg-info/SOURCES.txt
+modular_app.egg-info/dependency_links.txt
+modular_app.egg-info/top_level.txt

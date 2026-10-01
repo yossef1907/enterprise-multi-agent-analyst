@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: analyst-backend
+    ports:
+      - "8000:8000"
+    environment:
+      - ANALYST_DATA_PATH=/app/data
+      - ANALYST_OUTPUT_PATH=/app/modular_smoke_output
+      - CORS_ORIGINS=*
+    volumes:
+      - ./data:/app/data
+      - ./modular_smoke_output:/app/modular_smoke_output
+    restart: always
+
+  frontend:
+    build:
+      context: ./analyst-ui
+      dockerfile: Dockerfile
+    container_name: analyst-frontend
+    ports:
+      - "80:80"
+      - "5173:80"
+    depends_on:
+      - backend
+    restart: always

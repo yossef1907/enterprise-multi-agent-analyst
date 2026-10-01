@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@copilotkit/react-core": "^1.76.0",
+    "@copilotkit/react-ui": "^1.76.0"
+  }
+}

@@ -1,0 +1,11 @@
+.git
+__pycache__
+*.pyc
+.venv
+.pytest_cache
+kaggle_working_local
+modular_smoke_output
+executed.ipynb
+*.xlsx
+*.pdf
+*.csv
